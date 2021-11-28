@@ -1,0 +1,119 @@
+/* niversal selector */
+
+* {
+    font-family: sans-serif;
+}
+.iCons{
+    color: whitesmoke;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+.iCons:hover{
+    color: white;
+}
+
+.newBtn{
+    font-weight: 600;
+    color: #ffe484;
+    border-color: #ffe484;
+}
+.newBtn:hover{
+   background-color:  #ffe484;
+}
+
+.firstSection {
+    background: linear-gradient( 165deg, #f7f5fb 50%, #fff 50%)
+}
+
+.firstSection a {
+    cursor: pointer;
+}
+
+.bT1 {
+    background-color: #7952b3;
+    color: white;
+    cursor: pointer;
+}
+
+.bT1:hover {
+    background-color: #624291;
+    color: white;
+}
+.buttonClipboard {
+    position: relative;
+    display: none;
+    float: right;
+margin-top: 0rem;
+}
+
+.clipboardButtonStyle{
+    position: absolute;
+    top: 0.65rem;
+    right: 0.65rem;
+    z-index: 10;
+    display: block;
+    padding: 0.25rem 0.5rem;
+    font-size: .65em;
+    color: #0d6efd;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 0.25rem}
+
+    /* .clipboardButtonStyle:hover{
+        background-color: #0d6efd;
+        color: #fff;
+    }   */
+
+.highlight {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    margin-top: 0rem;
+}
+
+.footerStyle{
+    list-style: none;
+    color: #404549;
+}
+
+
+.footerStyle a{
+    text-decoration: none;
+    color: #495057;
+    
+}
+
+.footerStyle a:hover{
+    text-decoration: underline;
+    color:  #0d6efd;
+        
+}
+
+.ftImg{cursor: pointer;
+    padding-left: 2rem;}
+.ftImg:hover{
+    color: #0d6efd;
+}
+
+/* dont forget tyo write media query */
+
+@media (min-width: 768px) {
+    .headingT h1 {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    
+    .buttonClipboard {
+        display: block;
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .headingT h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+}

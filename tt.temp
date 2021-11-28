@@ -1,0 +1,47 @@
+<div class="firstSection  w-100%">
+        <div class="container">
+          <div class="topSection">
+          <div class="firstLeftSection">
+          </div>
+          <div class="firstRightSection">
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+/* iv for fisr section
+.firstSection{width: 100%;
+height: 44rem;
+padding: 3rem 0;
+background: linear-gradient(
+165deg, #f7f5fb 50%, #fff 50%)} */
+
+/* div for haed section   starts here */
+.topSection{
+    width: 76.625rem;
+    height: 25.625rem;
+    display: flex;
+}
+/* div for left section */
+.firstLeftSection{width: 47.625rem;
+    height: 25.625rem;
+    padding-left:0.75em ;
+    padding-right:0.75em ;
+background-color: red   ;
+}
+
+
+
+
+
+/* div for right section  */
+
+.firstRightSection{
+    width: 29rem;
+    height: 25.625rem;
+    background-color:blue;
+}
+
